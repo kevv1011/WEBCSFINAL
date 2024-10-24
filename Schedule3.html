@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="Media/logo.png"/>
+    <title>Hoops Haven - Basketball Coaching</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+</head>
+<body>
+
+<header>
+    <img src="Media/sky.png" class="mobile-sky">
+    <img src="Media/shootbg.jpg" class="bg-image">
+    <img src="Media/shootbg.jpg" class="bg-image-mobile">
+    <img src="Media/shootbg.jpg" class="bg-image-tab">
+    <img src="Media/logo.png" alt="Main Logo" class="tablogo">
+    <img src="Media/logo.png" alt="Main Logo" class="pclogo">
+    <img src="Media/logo.png" alt="Main Logo" class="cplogo">
+        <div style="display: flex; align-items: center;">
+            <h1>Hoops Haven</h1>
+        </div>
+        <div class="burgermobile">
+            <nav class="mobile-nav">
+                <a class="menu-icon" onclick="hamburgerToggle()">
+                    <div id="hamburger-icon">&#9776;</div>
+                </a>
+                <div id="menu-links">
+                    <a href="index.html">Home</a>
+                    <a href="Schedule.html">Schedule</a>
+                    <a href="About1.html">About Us</a>
+                    <a href="Location.html">Location</a>
+                </div>
+            </nav>
+         </div>
+         
+         <nav class="desktop-nav">
+            <a href="index.html">Home</a>
+            <a href="Schedule.html">Schedule</a>
+            <a href="About1.html">About Us</a>
+            <a href="Location.html">Location</a>
+        </nav>
+
+    <div class="sub-header">
+        <h2>MAKING A SCHEDULE?</h2>
+        <p>Organize Your Basketball Season: Easy Steps <br>to Create and Manage Your Game Schedule</p>
+    </div>
+</header>
+
+<div class="mobile-table">
+        <thead>
+            <tr>
+                <th>Activities</th>
+                <th>Time</th>
+                <th>Focus</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><p>Warm-Up</p></td>
+                <td>TBA</td>
+                <td>Light Jogging etc...</td>
+            </tr>
+            <tr>
+                <td><p>Shooting Drills</p></td>
+                <td>TBA</td>
+                <td>Spot Shooting etc...</td>
+            </tr>
+            <tr>
+                <td><p>Lay-Ups</p></td>
+                <td>TBA</td>
+                <td>Lay-up drills etc...</td>
+            </tr>
+            <tr>
+                <td><p>Dribbling Drills</p></td>
+                <td>TBA</td>
+                <td>Cone dribbling etc...</td>
+            </tr>
+            <tr>
+                <td><p>Passing Drill</p></td>
+                <td>TBA</td>
+                <td>Partner passing etc...</td>
+            </tr>
+            <tr>
+                <td><p>Cool-Down</p></td>
+                <td>TBA</td>
+                <td>Light Jogging etc...</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="mobile-forms">
+    <form action="Schedule5.html">
+        <label for="name">Name:</label>
+        <label for="fName">Enter Name:</label>
+        <input type="text" id="fName" name="fName" placeholder="Enter your name" required/>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required/>
+
+        <label for="phone">Contact Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter contact number" required/>
+
+      <input type="submit" value="Submit"/>
+    </form>
+  </div>
+
+  <div class="mobile-sched-nav">
+    <nav>
+        <a href="index.html"> ← Previous</a>
+    </nav>
+  </div>
+
+
+
+<div class="schedule-container">
+    <table class="schedule-table">
+
+        <div class="sky-back-table">
+            <img src="Media/sky.png">
+        </div>
+        
+        <thead>
+            <tr>
+                <th>Activities</th>
+                <th>Time</th>
+                <th>Focus</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>Warm-Up</td>
+                <td>Athlete’s Preference</td>
+                <td>
+                    <ul>
+                        <li>Light Jogging</li>
+                        <li>Dynamic Stretches</li>
+                        <li>Basic Ball-Handling Drills</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Shooting Drills</td>
+                <td>Athlete’s Preference</td>
+                <td>
+                    <ul>
+                        <li>Spot Shooting from Various Distances</li>
+                        <li>Free Throw Practice</li>
+                        <li>Shooting off the Dribble</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Lay-Ups</td>
+                <td>Athlete’s Preference</td>
+                <td>
+                    <ul>
+                        <li>Lay-up drills from both sides</li>
+                        <li>Lay-up variations (reverse lay-ups, etc.)</li>
+                        <li>Lay-up drills with defensive pressure</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Dribbling Drills</td>
+                <td>Athlete’s Preference</td>
+                <td>
+                    <ul>
+                        <li>Cone dribbling exercises</li>
+                        <li>Dribbling while changing direction</li>
+                        <li>Dribbling with both hands</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Passing Drill</td>
+                <td>Athlete’s Preference</td>
+                <td>
+                    <ul>
+                        <li>Partner passing (chess pass, bounce pass, overhead pass)</li>
+                        <li>Passing under pressure</li>
+                        <li>Passing while on the move</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>Cool-Down</td>
+                <td>15 Minutes</td>
+                <td>
+                    <ul>
+                        <li>Light Jogging</li>
+                        <li>Static Stretching</li>
+                        <li>Review of practice</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="nav-buttons">
+        <nav>
+            <a href="Schedule2.html" style="color: #000; text-decoration: none; opacity: 50%; margin-right: 1%;">← Back</a>
+            <a href="Schedule4.html" style="color: #000; text-decoration: none;">Proceed on Filling up Information →</a>
+        </nav>
+    </div>
+</div>
+
+    <div style="width: 32%; display: flex; justify-content: space-between;">
+        <img src="Media/driblit-removebg-preview.png" alt="drive" class="driblit">
+        <img src="Media/dunkit-removebg-preview.png" alt="dunking" class="dunking">
+    </div>
+
+    <footer>
+        <div class="footer">
+            <a href="https://facebook.com/JustineKevinReyes">
+                <img src="Media/fbpic.png" class="fb" alt="Facebook Icon" style="width: 20px; vertical-align: middle;">
+                JustineKevin Reyes
+            </a>
+            <a href="mailto:Justine.kevin13@gmail.com">
+                <img src="Media/igpuic.png" alt="Email Icon" style="width: 20px; vertical-align: middle;">
+                Justine.kevin13@gmail.com
+            </a>
+            <a href="mailto:Justine.kevin13@gmail.com">
+                <img src="Media/Gmail.png" alt="Email Icon" style="width: 20px; vertical-align: middle;">
+                Justine.kevin13@gmail.com
+            </a>
+            <p class="Copyreyt">© Copyright 2023. All rights reserved. Created by Justine Kevin M. Reyes.</p>
+        </div>
+    </footer>
+<script src="script/script.js"></script>
+    </body>
+</html>
